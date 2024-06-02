@@ -7,7 +7,7 @@ SELECT
   k.provinsi,
   k.rating AS rating_cabang,
   f.customer_name,
-  p.product_id,
+  f.product_id,
   p.product_name,
   p.price AS actual_price,
   f.discount_percentage,
