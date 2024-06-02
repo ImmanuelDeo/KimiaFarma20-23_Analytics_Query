@@ -3,6 +3,7 @@ SELECT
   f.transaction_id,
   f.date,
   k.branch_id,
+  k.branch_name,
   k.kota,
   k.provinsi,
   k.rating AS rating_cabang,
